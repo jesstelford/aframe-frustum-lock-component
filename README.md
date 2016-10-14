@@ -1,4 +1,4 @@
-## aframe-frustum-lock-component
+## Frustum Lock aframe component
 
 Adding `frustum-lock` to your entities will automatically scale them to fill the
 entire camera view.
@@ -14,9 +14,9 @@ entitiy & component.
 
 | attribute | type | default | description |
 |---|---|---|---|
-| widthProperty | string | `width` | Once frustum width is calculated, this property on the element will be given the value. |
-| heightProperty |string | `height` | Once frustum height is calculated, this property on the element will be given the value. |
-| depth | number | `10` | Distance along the z-index to position the entity once frustum size calculated. |
+| widthProperty | string | `width` | The given property will be set to the frustum width. |
+| heightProperty |string | `height` | The given property will be set to the frustum height. |
+| depth | number | `10` | Distance along the z-index to calculate frustum dimensions, and to positoin entity. |
 | throttleTimeout | number | `100` | Frustum calculations are performed on resize and enter/exit vr. This throttles the calculations to every throttleTimeout milliseconds. |
 
 ### Installation
