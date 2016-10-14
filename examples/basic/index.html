@@ -5,8 +5,15 @@
   </head>
   <body>
     <a-scene>
-      <a-assets></a-assets>
-      <a-entity geometry="primitive: box" material="color: #C03546"></a-entity>
+
+      <!-- Some fun scenery to look at -->
+      <a-sphere position="0 1.25 -4" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -4" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane rotation="-90 0 -5" width="4" height="4" color="#7BC8A4"></a-plane>
+
+      <a-camera>
+        <a-plane frustum-lock material="color: #C03546" position="3 0 -5"></a-plane>
+      </a-camera>
     </a-scene>
 
     <!-- GitHub Corner. -->
