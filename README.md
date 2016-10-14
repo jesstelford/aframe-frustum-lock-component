@@ -15,9 +15,9 @@ entitiy & component.
 | attribute | type | default | description |
 |---|---|---|---|
 | widthProperty | string | `width` | Once frustum width is calculated, this property on the element will be given the value. |
-| heightProperty |string | width | Once frustum height is calculated, this property on the element will be given the value. |
-| depth | number | 10 | Distance along the z-index to position the entity once frustum size calculated. |
-| throttleTimeout | number | 100 | Frustum calculations are performed on resize and enter/exit vr. This throttles the calculations to every throttleTimeout milliseconds. |
+| heightProperty |string | `height` | Once frustum height is calculated, this property on the element will be given the value. |
+| depth | number | `10` | Distance along the z-index to position the entity once frustum size calculated. |
+| throttleTimeout | number | `100` | Frustum calculations are performed on resize and enter/exit vr. This throttles the calculations to every throttleTimeout milliseconds. |
 
 ### Installation
 
