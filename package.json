@@ -1,6 +1,6 @@
 {
   "name": "aframe-frustum-lock-component",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Frustum Lock component for A-Frame.",
   "main": "lib/index.js",
   "scripts": {
