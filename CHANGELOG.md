@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+### Fixed
+
+- Correctly get the THREE.js camera when it becomes active (before the `camera`
+  component has been fully attached to the entity).
+
 ### Added
 
 - This changelog

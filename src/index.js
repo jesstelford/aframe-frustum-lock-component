@@ -36,8 +36,8 @@ export default function aframeFrustumLockComponent(aframe, componentName = COMPO
   }
 
   function calculateFrustrumSize(cameraEl, depth) {
-    const threeCamera = cameraEl.components.camera.camera;
-    const height = 2 * Math.tan(threeCamera.fov * aframe.THREE.Math.DEG2RAD / 2) * depth;
+    const threeCamera = cameraEl.getObject3D('camera');
+    const height = 2 * Math.tan((threeCamera.fov * aframe.THREE.Math.DEG2RAD) / 2) * depth;
     const width = height * threeCamera.aspect;
     return {width, height};
   }
