@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][]
 
+### Update
+
+- Support `aframe@0.4.0`
+- Update dev dependencies
+
 ## [1.0.1][] - 2016-11-02
 
 ### Fixed

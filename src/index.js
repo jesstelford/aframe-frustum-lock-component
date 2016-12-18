@@ -106,7 +106,7 @@ export default function aframeFrustumLockComponent(aframe, componentName = COMPO
         }
         this._attachedEventListener = throttle(
           this._resizeEventListener,
-          this.data.throttleTimeout
+          this.data.throttleTimeout,
         );
         window.addEventListener('resize', this._attachedEventListener);
         this.el.sceneEl.addEventListener('enter-vr', this._attachedEventListener);
